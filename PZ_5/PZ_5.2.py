@@ -43,6 +43,6 @@ while type(C) != float:         # обработка исключений
     except ValueError:
         print("Введите снова!")
         C = input("Введите число: ")
-print("A ^ P = ", power1(A, P))
+print("A ^ P =", power1(A, P))
 print("B ^ P =", power1(B, P))
 print("C ^ P =", power1(C, P))
