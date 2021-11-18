@@ -9,8 +9,7 @@ def summa(n):
         sum1 += 1
         res += sum1
         print(sum1, end=" ")
-    print(")", end=" ")
-    print("=", res)
+    print(")", "=", res, end=" ")
     return res
 
 
