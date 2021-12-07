@@ -5,12 +5,12 @@
 
 student = {}
 inf = 'Петров Иван ПОКС-29 5 4 3 2 5 4 4 5 4'
-inf = inf.split()
-student['Фамилия'] = inf[0]
-student['Имя'] = inf[1]
-student['Группа'] = inf[2]
+inf2 = inf.split()
+student['Фамилия'] = inf2[0]
+student['Имя'] = inf2[1]
+student['Группа'] = inf2[2]
 student['Оценки'] = []
-for i in inf[3:]:
+for i in inf2[3:]:
     r = student['Оценки'].append(int(i))
 print("Получившийся словарь: ", student)
 num = 0
