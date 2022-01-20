@@ -4,17 +4,13 @@
 # стихотворной форме выведя строки в обратном порядке.
 
 t = 0
+list2 = ['.', ',', '!', '?']
 for i in open('text18-21.txt', encoding='UTF-8'):
     print(i, end='')
     for j in i:
-        if j == '.':
-            t += 1
-        if j == ',':
-            t += 1
-        if j == '!':
-            t += 1
-        if j == '?':
-            t += 1
+        for p in list2:
+            if j == p:
+                t += 1
 print('\n')
 print('Количество знаков препинания: ', t, end='\n')
 f1 = open('text18-21.txt', encoding='UTF-8')
